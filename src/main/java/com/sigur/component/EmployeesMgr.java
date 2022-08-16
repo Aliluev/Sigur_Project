@@ -27,12 +27,12 @@ import java.util.concurrent.ThreadLocalRandom;
 @Transactional
 public class EmployeesMgr {
 
-    //Пускай у меня будут специальные интервалы времени для найма и для увольнения где также будет в промежутке
-    //Рандомно увольняться и наниматься люди
-    //типо с 11-13 происходит найм
-    //c 13-18 увольнение
+    //РџСѓСЃРєР°Р№ Сѓ РјРµРЅСЏ Р±СѓРґСѓС‚ СЃРїРµС†РёР°Р»СЊРЅС‹Рµ РёРЅС‚РµСЂРІР°Р»С‹ РІСЂРµРјРµРЅРё РґР»СЏ РЅР°Р№РјР° Рё РґР»СЏ СѓРІРѕР»СЊРЅРµРЅРёСЏ РіРґРµ С‚Р°РєР¶Рµ Р±СѓРґРµС‚ РІ РїСЂРѕРјРµР¶СѓС‚РєРµ
+    //Р Р°РЅРґРѕРјРЅРѕ СѓРІРѕР»СЊРЅСЏС‚СЊСЃСЏ Рё РЅР°РЅРёРјР°С‚СЊСЃСЏ Р»СЋРґРё
+    //С‚РёРїРѕ СЃ 8-12 РїСЂРѕРёСЃС…РѕРґРёС‚ РЅР°Р№Рј
+    //c 12-15 СѓРІРѕР»СЊРЅРµРЅРёРµ
 
-    //Время актуальное(работа компонента)
+    //Р’СЂРµРјСЏ Р°РєС‚СѓР°Р»СЊРЅРѕРµ(СЂР°Р±РѕС‚Р° РєРѕРјРїРѕРЅРµРЅС‚Р°)
     private Date actualDate = new Date(2022-1900,0,1,0,0,0);
 
     private Logger logger = LoggerFactory.getLogger(EmployeesMgr.class);
@@ -73,10 +73,10 @@ public class EmployeesMgr {
         return new Date(randomMillisSinceEpoch);
     }
 
-    //нанять работника
-    //найм происходит с 8:00-12:00
+    //РЅР°РЅСЏС‚СЊ СЂР°Р±РѕС‚РЅРёРєР°
+    //РЅР°Р№Рј РїСЂРѕРёСЃС…РѕРґРёС‚ СЃ 8:00-12:00
     private void hire (){
-        //Рандомная карта Person
+        //Р Р°РЅРґРѕРјРЅР°СЏ РєР°СЂС‚Р° Person
         SecureRandom random = new SecureRandom();
         byte[] bytes = new byte[16];
         random.nextBytes(bytes);
@@ -89,7 +89,7 @@ public class EmployeesMgr {
 
     private void nextDay(){
         if(actualDate.getMonth() == 11 && actualDate.getDay() == 31){
-            //Прекращения работы Bean
+            //РџСЂРµРєСЂР°С‰РµРЅРёСЏ СЂР°Р±РѕС‚С‹ Bean
             scheduledAnnotationBeanPostProcessor.destroy();
         }
         if (((actualDate.getDate() % 5) == 0) && actualDate.getDate()>4 ){
@@ -104,9 +104,9 @@ public class EmployeesMgr {
     }
 
 
-    //Увольнение происходит с 12:00-15:00
+    //РЈРІРѕР»СЊРЅРµРЅРёРµ РїСЂРѕРёСЃС…РѕРґРёС‚ СЃ 12:00-15:00
     private void destroyMethod(){
-        //от 1 до 3 нужно уволить
+        //РѕС‚ 1 РґРѕ 3 РЅСѓР¶РЅРѕ СѓРІРѕР»РёС‚СЊ
         int randomKolPerson = 1 + (int)(Math.random() * 2);
         List<Employee> employeeList = new ArrayList<>();
         for(int i=0;i<randomKolPerson;) {
