@@ -12,9 +12,11 @@ import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.io.IOException;
 import java.security.SecureRandom;
 import java.util.*;
 import java.util.concurrent.ThreadLocalRandom;
+import java.util.logging.FileHandler;
 
 @Component
 @Transactional
@@ -24,7 +26,10 @@ public class GuestMgr {
 
     private int iteration = 0;
 
-    private Logger logger = LoggerFactory.getLogger(GuestMgr.class);
+    private java.util.logging.Logger logger = java.util.logging.Logger.getLogger(GuestMgr.class.getName());
+
+    FileHandler fh;
+
 
     private int iterationCheckMeeting = 0;
 
@@ -33,9 +38,11 @@ public class GuestMgr {
     GuestRepository guestRepository;
 
     @Autowired
-    public GuestMgr(EmployeeRepository employeeRepository, GuestRepository guestRepository) {
+    public GuestMgr(EmployeeRepository employeeRepository, GuestRepository guestRepository) throws IOException {
         this.employeeRepository = employeeRepository;
         this.guestRepository = guestRepository;
+        fh = new FileHandler("GuestMgr.log");
+        logger.addHandler(fh);
     }
 
     //10 раз в виртуальные сутки коспонент будет проверять данные в таблице

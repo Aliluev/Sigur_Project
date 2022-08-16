@@ -7,14 +7,15 @@ import com.sigur.repository.DepartmentRepository;
 import com.sigur.repository.EmployeeRepository;
 import com.sigur.repository.GuestRepository;
 import com.sigur.service.DepartmentService;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import java.util.logging.FileHandler;
+import java.util.logging.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.io.IOException;
 import java.security.SecureRandom;
 import java.util.ArrayList;
 import java.util.Date;
@@ -35,7 +36,11 @@ public class EmployeesMgr {
     //Время актуальное(работа компонента)
     private Date actualDate = new Date(2022-1900,0,1,0,0,0);
 
-    private Logger logger = LoggerFactory.getLogger(EmployeesMgr.class);
+    private Logger logger = Logger.getLogger(EmployeesMgr.class.getName());
+
+    FileHandler fh;
+
+
     private Date dateEnd = new Date(2022-1900,11,31,23,59,59);
 
     private EmployeeRepository employeeRepository;
@@ -44,16 +49,17 @@ public class EmployeesMgr {
 
     private ScheduledAnnotationBeanPostProcessor scheduledAnnotationBeanPostProcessor;
 
-    private GuestRepository guestRepository;
+
     private DepartmentService departmentService;
 
     @Autowired
-    public EmployeesMgr(EmployeeRepository employeeRepository, DepartmentRepository departmentRepository, GuestRepository guestRepository, ScheduledAnnotationBeanPostProcessor scheduledAnnotationBeanPostProcessor, DepartmentService departmentService) {
+    public EmployeesMgr(EmployeeRepository employeeRepository, DepartmentRepository departmentRepository, ScheduledAnnotationBeanPostProcessor scheduledAnnotationBeanPostProcessor, DepartmentService departmentService) throws IOException {
         this.employeeRepository = employeeRepository;
         this.departmentRepository = departmentRepository;
-        this.guestRepository = guestRepository;
         this.scheduledAnnotationBeanPostProcessor = scheduledAnnotationBeanPostProcessor;
         this.departmentService = departmentService;
+        fh = new FileHandler("EmployeesMgr.log");
+        logger.addHandler(fh);
     }
 
     @Scheduled(fixedRate = 1000)
