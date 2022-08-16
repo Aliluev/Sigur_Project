@@ -2,99 +2,63 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2022-08-16T20:21:02.752789400Z</date>
-  <millis>1660681262752</millis>
-  <nanos>789400</nanos>
-  <sequence>6</sequence>
+  <date>2022-08-16T20:57:34.793058300Z</date>
+  <millis>1660683454793</millis>
+  <nanos>58300</nanos>
+  <sequence>7</sequence>
   <logger>com.sigur.component.GuestMgr</logger>
   <level>INFO</level>
   <class>com.sigur.component.GuestMgr</class>
   <method>meeting</method>
-  <thread>51</thread>
-  <message>Guest3104 has meeting with an employee 3104. Department:D_G. Date:Tue Mar 10 03:44:46 MSK 3801. Until the meeting is left:</message>
+  <thread>52</thread>
+  <message>Guest3129 has meeting with an employee 3129. Department:D_I. Date:Sun Mar 16 01:58:29 MSK 2938. Until the meeting is left:w:2d:12h:58</message>
 </record>
 <record>
-  <date>2022-08-16T20:21:03.673256900Z</date>
-  <millis>1660681263673</millis>
-  <nanos>256900</nanos>
-  <sequence>8</sequence>
+  <date>2022-08-16T20:57:37.796758100Z</date>
+  <millis>1660683457796</millis>
+  <nanos>758100</nanos>
+  <sequence>12</sequence>
   <logger>com.sigur.component.GuestMgr</logger>
   <level>INFO</level>
   <class>com.sigur.component.GuestMgr</class>
   <method>meeting</method>
-  <thread>51</thread>
-  <message>Guest3106 has meeting with an employee 3106. Department:D_D. Date:Sun Nov 11 01:36:51 MSK 2553. Until the meeting is left:</message>
+  <thread>52</thread>
+  <message>Guest3133 has meeting with an employee 3133. Department:D_C. Date:Wed Apr 12 22:26:48 MSK 2023. Until the meeting is left:w:3d:7h:26</message>
 </record>
 <record>
-  <date>2022-08-16T20:21:05.678018800Z</date>
-  <millis>1660681265678</millis>
-  <nanos>18800</nanos>
-  <sequence>13</sequence>
-  <logger>com.sigur.component.GuestMgr</logger>
-  <level>INFO</level>
-  <class>com.sigur.component.GuestMgr</class>
-  <method>meeting</method>
-  <thread>51</thread>
-  <message>Guest3109 has meeting with an employee 3109. Department:D_A. Date:Mon Nov 15 06:42:17 MSK 2860. Until the meeting is left:</message>
-</record>
-<record>
-  <date>2022-08-16T20:21:08.603276600Z</date>
-  <millis>1660681268603</millis>
-  <nanos>276600</nanos>
+  <date>2022-08-16T20:57:40.863913100Z</date>
+  <millis>1660683460863</millis>
+  <nanos>913100</nanos>
   <sequence>17</sequence>
   <logger>com.sigur.component.GuestMgr</logger>
   <level>INFO</level>
   <class>com.sigur.component.GuestMgr</class>
   <method>meeting</method>
-  <thread>51</thread>
-  <message>Guest3113 has meeting with an employee 3113. Department:D_A. Date:Fri Feb 06 09:13:38 MSK 2246. Until the meeting is left:</message>
+  <thread>52</thread>
+  <message>Guest3137 has meeting with an employee 3137. Department:D_E. Date:Mon Jan 01 10:16:41 MSK 2706. Until the meeting is left:w:11d:22h:16</message>
 </record>
 <record>
-  <date>2022-08-16T20:21:09.726932100Z</date>
-  <millis>1660681269726</millis>
-  <nanos>932100</nanos>
+  <date>2022-08-16T20:57:42.814468900Z</date>
+  <millis>1660683462814</millis>
+  <nanos>468900</nanos>
   <sequence>20</sequence>
   <logger>com.sigur.component.GuestMgr</logger>
   <level>INFO</level>
   <class>com.sigur.component.GuestMgr</class>
   <method>meeting</method>
-  <thread>51</thread>
-  <message>Guest3115 has meeting with an employee 3115. Department:D_B. Date:Tue Apr 29 11:43:12 MSK 2538. Until the meeting is left:</message>
+  <thread>52</thread>
+  <message>Guest3140 has meeting with an employee 3140. Department:D_E. Date:Mon Feb 27 10:11:59 MSK 2023. Until the meeting is left:w:1d:16h:11</message>
 </record>
 <record>
-  <date>2022-08-16T20:21:10.659327800Z</date>
-  <millis>1660681270659</millis>
-  <nanos>327800</nanos>
-  <sequence>22</sequence>
+  <date>2022-08-16T20:57:44.815292700Z</date>
+  <millis>1660683464815</millis>
+  <nanos>292700</nanos>
+  <sequence>23</sequence>
   <logger>com.sigur.component.GuestMgr</logger>
   <level>INFO</level>
   <class>com.sigur.component.GuestMgr</class>
   <method>meeting</method>
-  <thread>51</thread>
-  <message>Guest3117 has meeting with an employee 3117. Department:D_G. Date:Tue Apr 04 00:27:53 MSK 2023. Until the meeting is left:</message>
-</record>
-<record>
-  <date>2022-08-16T20:21:12.656377600Z</date>
-  <millis>1660681272656</millis>
-  <nanos>377600</nanos>
-  <sequence>25</sequence>
-  <logger>com.sigur.component.GuestMgr</logger>
-  <level>INFO</level>
-  <class>com.sigur.component.GuestMgr</class>
-  <method>meeting</method>
-  <thread>51</thread>
-  <message>Guest3120 has meeting with an employee 3120. Department:D_C. Date:Sat Mar 04 20:39:22 MSK 2023. Until the meeting is left:</message>
-</record>
-<record>
-  <date>2022-08-16T20:21:14.702823600Z</date>
-  <millis>1660681274702</millis>
-  <nanos>823600</nanos>
-  <sequence>29</sequence>
-  <logger>com.sigur.component.GuestMgr</logger>
-  <level>INFO</level>
-  <class>com.sigur.component.GuestMgr</class>
-  <method>meeting</method>
-  <thread>51</thread>
-  <message>Guest3123 has meeting with an employee 3123. Department:D_A. Date:Sat Apr 01 22:30:28 MSK 2023. Until the meeting is left:</message>
+  <thread>52</thread>
+  <message>Guest3143 has meeting with an employee 3143. Department:D_A. Date:Sat Dec 20 13:14:19 MSK 3755. Until the meeting is left:w:11d:7h:14</message>
 </record>
 </log>

@@ -26,11 +26,14 @@ public class GuestMgr {
 
     private int iteration = 0;
 
+
     private java.util.logging.Logger logger = java.util.logging.Logger.getLogger(GuestMgr.class.getName());
 
     FileHandler fh;
 
+    private Date actualDate = new Date(2022-1900,0,1,0,0,0);
 
+    private int kol = 0;
     private int iterationCheckMeeting = 0;
 
     EmployeeRepository employeeRepository;
@@ -58,7 +61,7 @@ public class GuestMgr {
                 if (guest.getEmployee().getFiredTime() != null) {
                     //логично что если сотрудника уволили то гость который шёл к конкретному сотруднику нам не нужен
                     guestRepository.delete(guest);
-                    logger.info("delete guest because employee was fired ");
+                    logger.info("Guest meeting "+guest.getId()+" with Employee "+guest.getEmployee().getId()+" canceled. Department: "+guest.getEmployee().getDepartment().getName()+" .Visit date "+guest.getVisitDate()+", date of fired time:"+guest.getEmployee().getFiredTime());
                 }
             }
         }
@@ -92,6 +95,16 @@ public class GuestMgr {
 
         }
         kolEmployee = employeeRepository.count();
+        kol++;
+        if(kol==2){
+            if(actualDate.getDay() == 31){
+                actualDate = new Date(actualDate.getYear(), actualDate.getMonth() + 1,0,0,0,0);
+            }else {
+                actualDate = new Date(actualDate.getYear(),actualDate.getMonth(),actualDate.getDate() + 1, 0,0,0 );
+                //  actualDate.setDate();
+            }
+            kol=0;
+        }
 
     }
 
@@ -128,7 +141,7 @@ public class GuestMgr {
 
         Guest guest = new Guest(bytes, Type.GUEST,between(dateMeetingLeft,dateMeetingRight),employee);
         guestRepository.save(guest);
-        logger.info("Guest"+employee.getId()+" has meeting with an employee "+guest.getEmployee().getId()+". Department:"+guest.getEmployee().getDepartment().getName()+". Date:"+guest.getVisitDate()+". Until the meeting is left:");
+        logger.info("Guest"+employee.getId()+" has meeting with an employee "+guest.getEmployee().getId()+". Department:"+guest.getEmployee().getDepartment().getName()+". Date:"+guest.getVisitDate()+". Until the meeting is left:"+workTime(guest.getVisitDate(),actualDate));
     }
 
     private Date between(Date startInclusive, Date endExclusive) {
@@ -139,6 +152,17 @@ public class GuestMgr {
                 .nextLong(startMillis, endMillis);
 
         return new Date(randomMillisSinceEpoch);
+    }
+
+    private String workTime(Date dateLeft, Date dateRight){
+        Date date = new Date(dateLeft.getTime()-dateRight.getTime());
+        String year;
+        if(date.getYear()>1970){
+            year = ""+date.getYear();
+            return "y:"+date.getYear()+"w:"+date.getMonth()+"d:"+date.getDate()+"h:"+date.getMinutes();
+        }else {
+            return "w:"+date.getMonth()+"d:"+date.getDate()+"h:"+date.getMinutes();
+        }
     }
 
 }
