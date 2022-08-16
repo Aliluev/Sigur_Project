@@ -1,0 +1,20 @@
+version: "3.3"
+services:
+  postgres:
+    image: postgres:13
+    container_name: java-postgres
+    environment:
+      POSTGRES_PASSWORD: admin
+      POSTGRES_USER: postgres
+      POSTGRES_DB: Sigur
+  app:
+    build:
+      context: ./
+      dockerfile: my.dockerfile
+    container_name: java-app
+    ports:
+      - 8080:8080
+    environment:
+      DATABASE_USER: postgres
+      DATABASE_URL: //postgres:5432/Sigur
+      DATABASE_PASS: admin

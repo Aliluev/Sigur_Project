@@ -1,0 +1,12 @@
+com\sigur\component\EmployeesMgr.class
+com\sigur\repository\DepartmentRepository.class
+com\sigur\SigurApplication.class
+com\sigur\component\GuestMgr.class
+com\sigur\model\Type.class
+com\sigur\repository\EmployeeRepository.class
+com\sigur\model\Guest.class
+com\sigur\service\DepartmentService.class
+com\sigur\model\Person.class
+com\sigur\model\Employee.class
+com\sigur\model\Department.class
+com\sigur\repository\GuestRepository.class

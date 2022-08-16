@@ -9,12 +9,10 @@
     </parent>
 
 
-    <artifactId>sigur-rest-server</artifactId>
+    <artifactId>sigur</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <description>"Тестовое задание"</description>
-    <properties>
-        <java.version>1.8</java.version>
-    </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -52,4 +50,22 @@
             <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
     </dependencies>
+
+    <build>
+        <finalName>${project.artifactId}</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>2.4.0</version>
+            </plugin>
+        </plugins>
+    </build>
+
+    <properties>
+        <!-- The main class to start by executing java -jar -->
+        <start-class>com.sigur.SigurApplication</start-class>
+        <jpa.version>2.2</jpa.version>
+    </properties>
+
 </project>

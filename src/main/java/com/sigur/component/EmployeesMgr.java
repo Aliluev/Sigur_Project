@@ -45,6 +45,8 @@ public class EmployeesMgr {
 
     private EmployeeRepository employeeRepository;
 
+    private int init = 0;
+
     private DepartmentRepository departmentRepository;
 
     private ScheduledAnnotationBeanPostProcessor scheduledAnnotationBeanPostProcessor;
@@ -64,6 +66,14 @@ public class EmployeesMgr {
 
     @Scheduled(fixedRate = 1000)
     public void oneDay(){
+        if(init==0){
+        for(int i=0;i<10;i++){
+            Department department = new Department(i,""+i);
+            departmentRepository.save(department);
+        }
+        init++;
+        }
+
         hire();
         nextDay();
         System.out.println("new Day");
