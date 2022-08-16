@@ -2,231 +2,831 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2022-08-16T20:57:31.692990900Z</date>
-  <millis>1660683451692</millis>
-  <nanos>990900</nanos>
+  <date>2022-08-16T21:45:12.418706500Z</date>
+  <millis>1660686312418</millis>
+  <nanos>706500</nanos>
   <sequence>3</sequence>
   <logger>com.sigur.component.EmployeesMgr</logger>
   <level>INFO</level>
   <class>com.sigur.component.EmployeesMgr</class>
   <method>hire</method>
-  <thread>52</thread>
-  <message>Sat Jan 01 00:00:00 MSK 2022. Employee 3126 hire Wed Aug 17 12:44:43 MSK 2022.Department: D_I</message>
+  <thread>46</thread>
+  <message>Sat Jan 01 00:00:00 MSK 2022. Employee 1 hire Sat Jan 15 06:54:27 MSK 2022.Department: 1</message>
 </record>
 <record>
-  <date>2022-08-16T20:57:32.571465700Z</date>
-  <millis>1660683452571</millis>
-  <nanos>465700</nanos>
+  <date>2022-08-16T21:45:13.345868800Z</date>
+  <millis>1660686313345</millis>
+  <nanos>868800</nanos>
   <sequence>4</sequence>
   <logger>com.sigur.component.EmployeesMgr</logger>
   <level>INFO</level>
   <class>com.sigur.component.EmployeesMgr</class>
   <method>hire</method>
-  <thread>52</thread>
-  <message>Sun Jan 02 00:00:00 MSK 2022. Employee 3127 hire Wed Jun 08 16:38:53 MSK 2022.Department: D_B</message>
+  <thread>46</thread>
+  <message>Sun Jan 02 00:00:00 MSK 2022. Employee 2 hire Sat Mar 05 07:21:20 MSK 2022.Department: 7</message>
 </record>
 <record>
-  <date>2022-08-16T20:57:33.580195300Z</date>
-  <millis>1660683453580</millis>
-  <nanos>195300</nanos>
+  <date>2022-08-16T21:45:14.342580400Z</date>
+  <millis>1660686314342</millis>
+  <nanos>580400</nanos>
   <sequence>5</sequence>
   <logger>com.sigur.component.EmployeesMgr</logger>
   <level>INFO</level>
   <class>com.sigur.component.EmployeesMgr</class>
   <method>hire</method>
-  <thread>52</thread>
-  <message>Mon Jan 03 00:00:00 MSK 2022. Employee 3128 hire Tue Aug 02 08:37:11 MSK 2022.Department: D_H</message>
+  <thread>46</thread>
+  <message>Mon Jan 03 00:00:00 MSK 2022. Employee 3 hire Sun May 01 16:39:00 MSK 2022.Department: 8</message>
 </record>
 <record>
-  <date>2022-08-16T20:57:34.564481200Z</date>
-  <millis>1660683454564</millis>
-  <nanos>481200</nanos>
-  <sequence>6</sequence>
+  <date>2022-08-16T21:45:15.334309200Z</date>
+  <millis>1660686315334</millis>
+  <nanos>309200</nanos>
+  <sequence>7</sequence>
   <logger>com.sigur.component.EmployeesMgr</logger>
   <level>INFO</level>
   <class>com.sigur.component.EmployeesMgr</class>
   <method>hire</method>
-  <thread>52</thread>
-  <message>Tue Jan 04 00:00:00 MSK 2022. Employee 3129 hire Wed Mar 23 07:21:24 MSK 2022.Department: D_I</message>
+  <thread>46</thread>
+  <message>Tue Jan 04 00:00:00 MSK 2022. Employee 5 hire Sat Mar 12 11:21:08 MSK 2022.Department: 2</message>
 </record>
 <record>
-  <date>2022-08-16T20:57:35.572045300Z</date>
-  <millis>1660683455572</millis>
-  <nanos>45300</nanos>
-  <sequence>8</sequence>
-  <logger>com.sigur.component.EmployeesMgr</logger>
-  <level>INFO</level>
-  <class>com.sigur.component.EmployeesMgr</class>
-  <method>hire</method>
-  <thread>52</thread>
-  <message>Wed Jan 05 00:00:00 MSK 2022. Employee 3131 hire Mon Sep 12 22:02:15 MSK 2022.Department: D_B</message>
-</record>
-<record>
-  <date>2022-08-16T20:57:35.646044300Z</date>
-  <millis>1660683455646</millis>
-  <nanos>44300</nanos>
+  <date>2022-08-16T21:45:16.340570300Z</date>
+  <millis>1660686316340</millis>
+  <nanos>570300</nanos>
   <sequence>9</sequence>
   <logger>com.sigur.component.EmployeesMgr</logger>
   <level>INFO</level>
   <class>com.sigur.component.EmployeesMgr</class>
-  <method>destroyMethod</method>
-  <thread>52</thread>
-  <message>Wed Jan 05 00:00:00 MSK 2022.Employee 1205 fired Mon Jan 03 14:22:13 MSK 2022. Department:D_I. Worked:w:6d:9h:48</message>
+  <method>hire</method>
+  <thread>46</thread>
+  <message>Wed Jan 05 00:00:00 MSK 2022. Employee 7 hire Wed Jul 13 01:50:58 MSK 2022.Department: 3</message>
 </record>
 <record>
-  <date>2022-08-16T20:57:36.574757300Z</date>
-  <millis>1660683456574</millis>
-  <nanos>757300</nanos>
+  <date>2022-08-16T21:45:16.350103800Z</date>
+  <millis>1660686316350</millis>
+  <nanos>103800</nanos>
   <sequence>10</sequence>
   <logger>com.sigur.component.EmployeesMgr</logger>
   <level>INFO</level>
   <class>com.sigur.component.EmployeesMgr</class>
-  <method>hire</method>
-  <thread>52</thread>
-  <message>Thu Jan 06 00:00:00 MSK 2022. Employee 3132 hire Fri Jun 17 23:12:50 MSK 2022.Department: D_A</message>
+  <method>destroyMethod</method>
+  <thread>46</thread>
+  <message>Wed Jan 05 00:00:00 MSK 2022.Employee 1 fired Mon Jan 03 14:58:18 MSK 2022. Department:1. Worked:w:11d:20h:3</message>
 </record>
 <record>
-  <date>2022-08-16T20:57:37.575487300Z</date>
-  <millis>1660683457575</millis>
-  <nanos>487300</nanos>
+  <date>2022-08-16T21:45:16.351103800Z</date>
+  <millis>1660686316351</millis>
+  <nanos>103800</nanos>
   <sequence>11</sequence>
   <logger>com.sigur.component.EmployeesMgr</logger>
   <level>INFO</level>
   <class>com.sigur.component.EmployeesMgr</class>
-  <method>hire</method>
-  <thread>52</thread>
-  <message>Fri Jan 07 00:00:00 MSK 2022. Employee 3133 hire Sat Dec 03 17:12:11 MSK 2022.Department: D_C</message>
+  <method>destroyMethod</method>
+  <thread>46</thread>
+  <message>Wed Jan 05 00:00:00 MSK 2022.Employee 1 fired Mon Jan 03 14:35:21 MSK 2022. Department:1. Worked:w:11d:20h:40</message>
 </record>
 <record>
-  <date>2022-08-16T20:57:38.564651100Z</date>
-  <millis>1660683458564</millis>
-  <nanos>651100</nanos>
+  <date>2022-08-16T21:45:17.333700700Z</date>
+  <millis>1660686317333</millis>
+  <nanos>700700</nanos>
   <sequence>13</sequence>
   <logger>com.sigur.component.EmployeesMgr</logger>
   <level>INFO</level>
   <class>com.sigur.component.EmployeesMgr</class>
   <method>hire</method>
-  <thread>52</thread>
-  <message>Sat Jan 08 00:00:00 MSK 2022. Employee 3135 hire Sat May 21 19:52:15 MSK 2022.Department: D_H</message>
+  <thread>46</thread>
+  <message>Thu Jan 06 00:00:00 MSK 2022. Employee 9 hire Sun Aug 14 07:06:46 MSK 2022.Department: 7</message>
 </record>
 <record>
-  <date>2022-08-16T20:57:39.566199400Z</date>
-  <millis>1660683459566</millis>
-  <nanos>199400</nanos>
+  <date>2022-08-16T21:45:18.345173Z</date>
+  <millis>1660686318345</millis>
+  <nanos>173000</nanos>
   <sequence>14</sequence>
   <logger>com.sigur.component.EmployeesMgr</logger>
   <level>INFO</level>
   <class>com.sigur.component.EmployeesMgr</class>
   <method>hire</method>
-  <thread>52</thread>
-  <message>Sun Jan 09 00:00:00 MSK 2022. Employee 3136 hire Wed Oct 26 08:43:26 MSK 2022.Department: D_H</message>
+  <thread>46</thread>
+  <message>Fri Jan 07 00:00:00 MSK 2022. Employee 10 hire Sun Dec 11 12:06:48 MSK 2022.Department: 7</message>
 </record>
 <record>
-  <date>2022-08-16T20:57:40.565038Z</date>
-  <millis>1660683460565</millis>
-  <nanos>38000</nanos>
-  <sequence>15</sequence>
-  <logger>com.sigur.component.EmployeesMgr</logger>
-  <level>INFO</level>
-  <class>com.sigur.component.EmployeesMgr</class>
-  <method>hire</method>
-  <thread>52</thread>
-  <message>Mon Jan 10 00:00:00 MSK 2022. Employee 3137 hire Sat Feb 05 15:00:21 MSK 2022.Department: D_E</message>
-</record>
-<record>
-  <date>2022-08-16T20:57:40.618050500Z</date>
-  <millis>1660683460618</millis>
-  <nanos>50500</nanos>
+  <date>2022-08-16T21:45:19.347738Z</date>
+  <millis>1660686319347</millis>
+  <nanos>738000</nanos>
   <sequence>16</sequence>
   <logger>com.sigur.component.EmployeesMgr</logger>
   <level>INFO</level>
   <class>com.sigur.component.EmployeesMgr</class>
-  <method>destroyMethod</method>
-  <thread>52</thread>
-  <message>Mon Jan 10 00:00:00 MSK 2022.Employee 2087 fired Sat Jan 01 13:23:15 MSK 2022. Department:D_I. Worked:w:9d:3h:0</message>
+  <method>hire</method>
+  <thread>46</thread>
+  <message>Sat Jan 08 00:00:00 MSK 2022. Employee 12 hire Mon Apr 11 09:48:24 MSK 2022.Department: 0</message>
 </record>
 <record>
-  <date>2022-08-16T20:57:41.564025700Z</date>
-  <millis>1660683461564</millis>
-  <nanos>25700</nanos>
-  <sequence>18</sequence>
+  <date>2022-08-16T21:45:20.343705100Z</date>
+  <millis>1660686320343</millis>
+  <nanos>705100</nanos>
+  <sequence>17</sequence>
   <logger>com.sigur.component.EmployeesMgr</logger>
   <level>INFO</level>
   <class>com.sigur.component.EmployeesMgr</class>
   <method>hire</method>
-  <thread>52</thread>
-  <message>Tue Jan 11 00:00:00 MSK 2022. Employee 3139 hire Sat Sep 10 00:21:06 MSK 2022.Department: D_G</message>
+  <thread>46</thread>
+  <message>Sun Jan 09 00:00:00 MSK 2022. Employee 13 hire Sun Jan 09 07:27:34 MSK 2022.Department: 7</message>
 </record>
 <record>
-  <date>2022-08-16T20:57:42.577376800Z</date>
-  <millis>1660683462577</millis>
-  <nanos>376800</nanos>
+  <date>2022-08-16T21:45:21.335565400Z</date>
+  <millis>1660686321335</millis>
+  <nanos>565400</nanos>
   <sequence>19</sequence>
   <logger>com.sigur.component.EmployeesMgr</logger>
   <level>INFO</level>
   <class>com.sigur.component.EmployeesMgr</class>
   <method>hire</method>
-  <thread>52</thread>
-  <message>Wed Jan 12 00:00:00 MSK 2022. Employee 3140 hire Mon Oct 10 19:40:40 MSK 2022.Department: D_E</message>
+  <thread>46</thread>
+  <message>Mon Jan 10 00:00:00 MSK 2022. Employee 15 hire Sat Aug 13 11:13:57 MSK 2022.Department: 4</message>
 </record>
 <record>
-  <date>2022-08-16T20:57:43.573441700Z</date>
-  <millis>1660683463573</millis>
-  <nanos>441700</nanos>
+  <date>2022-08-16T21:45:21.341560300Z</date>
+  <millis>1660686321341</millis>
+  <nanos>560300</nanos>
+  <sequence>20</sequence>
+  <logger>com.sigur.component.EmployeesMgr</logger>
+  <level>INFO</level>
+  <class>com.sigur.component.EmployeesMgr</class>
+  <method>destroyMethod</method>
+  <thread>46</thread>
+  <message>Mon Jan 10 00:00:00 MSK 2022.Employee 10 fired Sat Jan 01 13:09:32 MSK 2022. Department:7. Worked:w:0d:22h:2</message>
+</record>
+<record>
+  <date>2022-08-16T21:45:21.341560300Z</date>
+  <millis>1660686321341</millis>
+  <nanos>560300</nanos>
   <sequence>21</sequence>
   <logger>com.sigur.component.EmployeesMgr</logger>
   <level>INFO</level>
   <class>com.sigur.component.EmployeesMgr</class>
-  <method>hire</method>
-  <thread>52</thread>
-  <message>Thu Jan 13 00:00:00 MSK 2022. Employee 3142 hire Thu Jun 02 03:03:18 MSK 2022.Department: D_A</message>
+  <method>destroyMethod</method>
+  <thread>46</thread>
+  <message>Mon Jan 10 00:00:00 MSK 2022.Employee 9 fired Sat Jan 01 13:49:21 MSK 2022. Department:7. Worked:w:4d:21h:42</message>
 </record>
 <record>
-  <date>2022-08-16T20:57:44.571661100Z</date>
-  <millis>1660683464571</millis>
-  <nanos>661100</nanos>
-  <sequence>22</sequence>
-  <logger>com.sigur.component.EmployeesMgr</logger>
-  <level>INFO</level>
-  <class>com.sigur.component.EmployeesMgr</class>
-  <method>hire</method>
-  <thread>52</thread>
-  <message>Fri Jan 14 00:00:00 MSK 2022. Employee 3143 hire Fri Feb 11 16:52:35 MSK 2022.Department: D_A</message>
-</record>
-<record>
-  <date>2022-08-16T20:57:45.572750800Z</date>
-  <millis>1660683465572</millis>
-  <nanos>750800</nanos>
+  <date>2022-08-16T21:45:22.346993600Z</date>
+  <millis>1660686322346</millis>
+  <nanos>993600</nanos>
   <sequence>24</sequence>
   <logger>com.sigur.component.EmployeesMgr</logger>
   <level>INFO</level>
   <class>com.sigur.component.EmployeesMgr</class>
   <method>hire</method>
-  <thread>52</thread>
-  <message>Sat Jan 15 00:00:00 MSK 2022. Employee 3145 hire Mon Aug 01 06:03:46 MSK 2022.Department: D_C</message>
+  <thread>46</thread>
+  <message>Tue Jan 11 00:00:00 MSK 2022. Employee 17 hire Sun Oct 02 23:14:18 MSK 2022.Department: 8</message>
 </record>
 <record>
-  <date>2022-08-16T20:57:45.659773700Z</date>
-  <millis>1660683465659</millis>
-  <nanos>773700</nanos>
+  <date>2022-08-16T21:45:23.342787100Z</date>
+  <millis>1660686323342</millis>
+  <nanos>787100</nanos>
   <sequence>25</sequence>
   <logger>com.sigur.component.EmployeesMgr</logger>
   <level>INFO</level>
   <class>com.sigur.component.EmployeesMgr</class>
-  <method>destroyMethod</method>
-  <thread>52</thread>
-  <message>Sat Jan 15 00:00:00 MSK 2022.Employee 1104 fired Thu Jan 06 12:22:08 MSK 2022. Department:D_C. Worked:w:1d:4h:43</message>
+  <method>hire</method>
+  <thread>46</thread>
+  <message>Wed Jan 12 00:00:00 MSK 2022. Employee 18 hire Sat Jan 29 14:50:40 MSK 2022.Department: 2</message>
 </record>
 <record>
-  <date>2022-08-16T20:57:45.660762300Z</date>
-  <millis>1660683465660</millis>
-  <nanos>762300</nanos>
-  <sequence>26</sequence>
+  <date>2022-08-16T21:45:24.335885200Z</date>
+  <millis>1660686324335</millis>
+  <nanos>885200</nanos>
+  <sequence>27</sequence>
+  <logger>com.sigur.component.EmployeesMgr</logger>
+  <level>INFO</level>
+  <class>com.sigur.component.EmployeesMgr</class>
+  <method>hire</method>
+  <thread>46</thread>
+  <message>Thu Jan 13 00:00:00 MSK 2022. Employee 20 hire Mon May 30 15:06:32 MSK 2022.Department: 3</message>
+</record>
+<record>
+  <date>2022-08-16T21:45:25.340331400Z</date>
+  <millis>1660686325340</millis>
+  <nanos>331400</nanos>
+  <sequence>29</sequence>
+  <logger>com.sigur.component.EmployeesMgr</logger>
+  <level>INFO</level>
+  <class>com.sigur.component.EmployeesMgr</class>
+  <method>hire</method>
+  <thread>46</thread>
+  <message>Fri Jan 14 00:00:00 MSK 2022. Employee 22 hire Fri Mar 25 01:54:45 MSK 2022.Department: 2</message>
+</record>
+<record>
+  <date>2022-08-16T21:45:26.337881500Z</date>
+  <millis>1660686326337</millis>
+  <nanos>881500</nanos>
+  <sequence>31</sequence>
+  <logger>com.sigur.component.EmployeesMgr</logger>
+  <level>INFO</level>
+  <class>com.sigur.component.EmployeesMgr</class>
+  <method>hire</method>
+  <thread>46</thread>
+  <message>Sat Jan 15 00:00:00 MSK 2022. Employee 24 hire Mon Feb 21 06:42:43 MSK 2022.Department: 2</message>
+</record>
+<record>
+  <date>2022-08-16T21:45:26.340887100Z</date>
+  <millis>1660686326340</millis>
+  <nanos>887100</nanos>
+  <sequence>32</sequence>
   <logger>com.sigur.component.EmployeesMgr</logger>
   <level>INFO</level>
   <class>com.sigur.component.EmployeesMgr</class>
   <method>destroyMethod</method>
-  <thread>52</thread>
-  <message>Sat Jan 15 00:00:00 MSK 2022.Employee 2078 fired Thu Jan 06 13:13:21 MSK 2022. Department:D_B. Worked:w:3d:3h:39</message>
+  <thread>46</thread>
+  <message>Sat Jan 15 00:00:00 MSK 2022.Employee 7 fired Thu Jan 06 12:26:47 MSK 2022. Department:3. Worked:w:5d:27h:35</message>
+</record>
+<record>
+  <date>2022-08-16T21:45:27.343336800Z</date>
+  <millis>1660686327343</millis>
+  <nanos>336800</nanos>
+  <sequence>34</sequence>
+  <logger>com.sigur.component.EmployeesMgr</logger>
+  <level>INFO</level>
+  <class>com.sigur.component.EmployeesMgr</class>
+  <method>hire</method>
+  <thread>46</thread>
+  <message>Sun Jan 16 00:00:00 MSK 2022. Employee 25 hire Thu Jun 02 07:39:39 MSK 2022.Department: 2</message>
+</record>
+<record>
+  <date>2022-08-16T21:45:28.343501400Z</date>
+  <millis>1660686328343</millis>
+  <nanos>501400</nanos>
+  <sequence>36</sequence>
+  <logger>com.sigur.component.EmployeesMgr</logger>
+  <level>INFO</level>
+  <class>com.sigur.component.EmployeesMgr</class>
+  <method>hire</method>
+  <thread>46</thread>
+  <message>Mon Jan 17 00:00:00 MSK 2022. Employee 27 hire Wed Oct 19 04:13:04 MSK 2022.Department: 8</message>
+</record>
+<record>
+  <date>2022-08-16T21:45:29.339537600Z</date>
+  <millis>1660686329339</millis>
+  <nanos>537600</nanos>
+  <sequence>37</sequence>
+  <logger>com.sigur.component.EmployeesMgr</logger>
+  <level>INFO</level>
+  <class>com.sigur.component.EmployeesMgr</class>
+  <method>hire</method>
+  <thread>46</thread>
+  <message>Tue Jan 18 00:00:00 MSK 2022. Employee 28 hire Sun Sep 25 18:29:22 MSK 2022.Department: 8</message>
+</record>
+<record>
+  <date>2022-08-16T21:45:30.337189300Z</date>
+  <millis>1660686330337</millis>
+  <nanos>189300</nanos>
+  <sequence>38</sequence>
+  <logger>com.sigur.component.EmployeesMgr</logger>
+  <level>INFO</level>
+  <class>com.sigur.component.EmployeesMgr</class>
+  <method>hire</method>
+  <thread>46</thread>
+  <message>Wed Jan 19 00:00:00 MSK 2022. Employee 29 hire Sat Mar 26 03:42:36 MSK 2022.Department: 5</message>
+</record>
+<record>
+  <date>2022-08-16T21:45:31.348236300Z</date>
+  <millis>1660686331348</millis>
+  <nanos>236300</nanos>
+  <sequence>40</sequence>
+  <logger>com.sigur.component.EmployeesMgr</logger>
+  <level>INFO</level>
+  <class>com.sigur.component.EmployeesMgr</class>
+  <method>hire</method>
+  <thread>46</thread>
+  <message>Thu Jan 20 00:00:00 MSK 2022. Employee 31 hire Tue Nov 15 01:28:14 MSK 2022.Department: 5</message>
+</record>
+<record>
+  <date>2022-08-16T21:45:31.354235900Z</date>
+  <millis>1660686331354</millis>
+  <nanos>235900</nanos>
+  <sequence>41</sequence>
+  <logger>com.sigur.component.EmployeesMgr</logger>
+  <level>INFO</level>
+  <class>com.sigur.component.EmployeesMgr</class>
+  <method>destroyMethod</method>
+  <thread>46</thread>
+  <message>Thu Jan 20 00:00:00 MSK 2022.Employee 15 fired Tue Jan 04 14:04:37 MSK 2022. Department:4. Worked:w:4d:25h:50</message>
+</record>
+<record>
+  <date>2022-08-16T21:45:31.354235900Z</date>
+  <millis>1660686331354</millis>
+  <nanos>235900</nanos>
+  <sequence>42</sequence>
+  <logger>com.sigur.component.EmployeesMgr</logger>
+  <level>INFO</level>
+  <class>com.sigur.component.EmployeesMgr</class>
+  <method>destroyMethod</method>
+  <thread>46</thread>
+  <message>Thu Jan 20 00:00:00 MSK 2022.Employee 2 fired Tue Jan 04 14:25:15 MSK 2022. Department:7. Worked:w:10d:2h:3</message>
+</record>
+<record>
+  <date>2022-08-16T21:45:32.340818600Z</date>
+  <millis>1660686332340</millis>
+  <nanos>818600</nanos>
+  <sequence>45</sequence>
+  <logger>com.sigur.component.EmployeesMgr</logger>
+  <level>INFO</level>
+  <class>com.sigur.component.EmployeesMgr</class>
+  <method>hire</method>
+  <thread>46</thread>
+  <message>Fri Jan 21 00:00:00 MSK 2022. Employee 33 hire Sun Sep 11 01:28:50 MSK 2022.Department: 5</message>
+</record>
+<record>
+  <date>2022-08-16T21:45:33.346379200Z</date>
+  <millis>1660686333346</millis>
+  <nanos>379200</nanos>
+  <sequence>47</sequence>
+  <logger>com.sigur.component.EmployeesMgr</logger>
+  <level>INFO</level>
+  <class>com.sigur.component.EmployeesMgr</class>
+  <method>hire</method>
+  <thread>46</thread>
+  <message>Sat Jan 22 00:00:00 MSK 2022. Employee 35 hire Tue Jun 28 03:52:26 MSK 2022.Department: 8</message>
+</record>
+<record>
+  <date>2022-08-16T21:45:34.345744700Z</date>
+  <millis>1660686334345</millis>
+  <nanos>744700</nanos>
+  <sequence>48</sequence>
+  <logger>com.sigur.component.EmployeesMgr</logger>
+  <level>INFO</level>
+  <class>com.sigur.component.EmployeesMgr</class>
+  <method>hire</method>
+  <thread>46</thread>
+  <message>Sun Jan 23 00:00:00 MSK 2022. Employee 36 hire Sat Oct 08 05:14:54 MSK 2022.Department: 0</message>
+</record>
+<record>
+  <date>2022-08-16T21:45:35.337808100Z</date>
+  <millis>1660686335337</millis>
+  <nanos>808100</nanos>
+  <sequence>49</sequence>
+  <logger>com.sigur.component.EmployeesMgr</logger>
+  <level>INFO</level>
+  <class>com.sigur.component.EmployeesMgr</class>
+  <method>hire</method>
+  <thread>46</thread>
+  <message>Mon Jan 24 00:00:00 MSK 2022. Employee 37 hire Mon Dec 12 07:42:57 MSK 2022.Department: 1</message>
+</record>
+<record>
+  <date>2022-08-16T21:45:36.335295400Z</date>
+  <millis>1660686336335</millis>
+  <nanos>295400</nanos>
+  <sequence>51</sequence>
+  <logger>com.sigur.component.EmployeesMgr</logger>
+  <level>INFO</level>
+  <class>com.sigur.component.EmployeesMgr</class>
+  <method>hire</method>
+  <thread>46</thread>
+  <message>Tue Jan 25 00:00:00 MSK 2022. Employee 39 hire Mon May 16 10:18:49 MSK 2022.Department: 4</message>
+</record>
+<record>
+  <date>2022-08-16T21:45:36.338281200Z</date>
+  <millis>1660686336338</millis>
+  <nanos>281200</nanos>
+  <sequence>52</sequence>
+  <logger>com.sigur.component.EmployeesMgr</logger>
+  <level>INFO</level>
+  <class>com.sigur.component.EmployeesMgr</class>
+  <method>destroyMethod</method>
+  <thread>46</thread>
+  <message>Tue Jan 25 00:00:00 MSK 2022.Employee 18 fired Sun Jan 02 12:43:57 MSK 2022. Department:2. Worked:w:11d:5h:53</message>
+</record>
+<record>
+  <date>2022-08-16T21:45:36.339287700Z</date>
+  <millis>1660686336339</millis>
+  <nanos>287700</nanos>
+  <sequence>53</sequence>
+  <logger>com.sigur.component.EmployeesMgr</logger>
+  <level>INFO</level>
+  <class>com.sigur.component.EmployeesMgr</class>
+  <method>destroyMethod</method>
+  <thread>46</thread>
+  <message>Tue Jan 25 00:00:00 MSK 2022.Employee 27 fired Sun Jan 02 12:47:10 MSK 2022. Department:8. Worked:w:2d:17h:34</message>
+</record>
+<record>
+  <date>2022-08-16T21:45:37.343731200Z</date>
+  <millis>1660686337343</millis>
+  <nanos>731200</nanos>
+  <sequence>56</sequence>
+  <logger>com.sigur.component.EmployeesMgr</logger>
+  <level>INFO</level>
+  <class>com.sigur.component.EmployeesMgr</class>
+  <method>hire</method>
+  <thread>46</thread>
+  <message>Wed Jan 26 00:00:00 MSK 2022. Employee 41 hire Wed Jun 08 22:36:35 MSK 2022.Department: 5</message>
+</record>
+<record>
+  <date>2022-08-16T21:45:38.338772700Z</date>
+  <millis>1660686338338</millis>
+  <nanos>772700</nanos>
+  <sequence>58</sequence>
+  <logger>com.sigur.component.EmployeesMgr</logger>
+  <level>INFO</level>
+  <class>com.sigur.component.EmployeesMgr</class>
+  <method>hire</method>
+  <thread>46</thread>
+  <message>Thu Jan 27 00:00:00 MSK 2022. Employee 43 hire Fri Sep 23 11:41:52 MSK 2022.Department: 6</message>
+</record>
+<record>
+  <date>2022-08-16T21:45:39.337859Z</date>
+  <millis>1660686339337</millis>
+  <nanos>859000</nanos>
+  <sequence>60</sequence>
+  <logger>com.sigur.component.EmployeesMgr</logger>
+  <level>INFO</level>
+  <class>com.sigur.component.EmployeesMgr</class>
+  <method>hire</method>
+  <thread>46</thread>
+  <message>Fri Jan 28 00:00:00 MSK 2022. Employee 45 hire Mon Jul 18 06:01:54 MSK 2022.Department: 4</message>
+</record>
+<record>
+  <date>2022-08-16T21:45:40.336414500Z</date>
+  <millis>1660686340336</millis>
+  <nanos>414500</nanos>
+  <sequence>62</sequence>
+  <logger>com.sigur.component.EmployeesMgr</logger>
+  <level>INFO</level>
+  <class>com.sigur.component.EmployeesMgr</class>
+  <method>hire</method>
+  <thread>46</thread>
+  <message>Sat Jan 29 00:00:00 MSK 2022. Employee 47 hire Sat Dec 31 10:14:34 MSK 2022.Department: 4</message>
+</record>
+<record>
+  <date>2022-08-16T21:45:41.347511Z</date>
+  <millis>1660686341347</millis>
+  <nanos>511000</nanos>
+  <sequence>64</sequence>
+  <logger>com.sigur.component.EmployeesMgr</logger>
+  <level>INFO</level>
+  <class>com.sigur.component.EmployeesMgr</class>
+  <method>hire</method>
+  <thread>46</thread>
+  <message>Sun Jan 30 00:00:00 MSK 2022. Employee 49 hire Wed Sep 07 21:41:41 MSK 2022.Department: 3</message>
+</record>
+<record>
+  <date>2022-08-16T21:45:41.353513400Z</date>
+  <millis>1660686341353</millis>
+  <nanos>513400</nanos>
+  <sequence>65</sequence>
+  <logger>com.sigur.component.EmployeesMgr</logger>
+  <level>INFO</level>
+  <class>com.sigur.component.EmployeesMgr</class>
+  <method>destroyMethod</method>
+  <thread>46</thread>
+  <message>Sun Jan 30 00:00:00 MSK 2022.Employee 41 fired Fri Dec 31 13:50:14 MSK 2021. Department:5. Worked:w:6d:25h:13</message>
+</record>
+<record>
+  <date>2022-08-16T21:45:41.354512100Z</date>
+  <millis>1660686341354</millis>
+  <nanos>512100</nanos>
+  <sequence>66</sequence>
+  <logger>com.sigur.component.EmployeesMgr</logger>
+  <level>INFO</level>
+  <class>com.sigur.component.EmployeesMgr</class>
+  <method>destroyMethod</method>
+  <thread>46</thread>
+  <message>Sun Jan 30 00:00:00 MSK 2022.Employee 17 fired Fri Dec 31 13:08:08 MSK 2021. Department:8. Worked:w:2d:31h:53</message>
+</record>
+<record>
+  <date>2022-08-16T21:45:42.343977400Z</date>
+  <millis>1660686342343</millis>
+  <nanos>977400</nanos>
+  <sequence>69</sequence>
+  <logger>com.sigur.component.EmployeesMgr</logger>
+  <level>INFO</level>
+  <class>com.sigur.component.EmployeesMgr</class>
+  <method>hire</method>
+  <thread>46</thread>
+  <message>Mon Jan 31 00:00:00 MSK 2022. Employee 51 hire Fri Jun 03 10:37:38 MSK 2022.Department: 6</message>
+</record>
+<record>
+  <date>2022-08-16T21:45:43.343512100Z</date>
+  <millis>1660686343343</millis>
+  <nanos>512100</nanos>
+  <sequence>70</sequence>
+  <logger>com.sigur.component.EmployeesMgr</logger>
+  <level>INFO</level>
+  <class>com.sigur.component.EmployeesMgr</class>
+  <method>hire</method>
+  <thread>46</thread>
+  <message>Tue Feb 01 00:00:00 MSK 2022. Employee 52 hire Thu Mar 31 19:14:13 MSK 2022.Department: 8</message>
+</record>
+<record>
+  <date>2022-08-16T21:45:44.343649900Z</date>
+  <millis>1660686344343</millis>
+  <nanos>649900</nanos>
+  <sequence>71</sequence>
+  <logger>com.sigur.component.EmployeesMgr</logger>
+  <level>INFO</level>
+  <class>com.sigur.component.EmployeesMgr</class>
+  <method>hire</method>
+  <thread>46</thread>
+  <message>Wed Feb 02 00:00:00 MSK 2022. Employee 53 hire Sat Apr 09 17:35:16 MSK 2022.Department: 7</message>
+</record>
+<record>
+  <date>2022-08-16T21:45:45.335873800Z</date>
+  <millis>1660686345335</millis>
+  <nanos>873800</nanos>
+  <sequence>72</sequence>
+  <logger>com.sigur.component.EmployeesMgr</logger>
+  <level>INFO</level>
+  <class>com.sigur.component.EmployeesMgr</class>
+  <method>hire</method>
+  <thread>46</thread>
+  <message>Thu Feb 03 00:00:00 MSK 2022. Employee 54 hire Wed Oct 12 01:03:59 MSK 2022.Department: 6</message>
+</record>
+<record>
+  <date>2022-08-16T21:45:46.338460Z</date>
+  <millis>1660686346338</millis>
+  <nanos>460000</nanos>
+  <sequence>73</sequence>
+  <logger>com.sigur.component.EmployeesMgr</logger>
+  <level>INFO</level>
+  <class>com.sigur.component.EmployeesMgr</class>
+  <method>hire</method>
+  <thread>46</thread>
+  <message>Fri Feb 04 00:00:00 MSK 2022. Employee 55 hire Sat Jul 23 07:51:07 MSK 2022.Department: 0</message>
+</record>
+<record>
+  <date>2022-08-16T21:45:47.345858400Z</date>
+  <millis>1660686347345</millis>
+  <nanos>858400</nanos>
+  <sequence>75</sequence>
+  <logger>com.sigur.component.EmployeesMgr</logger>
+  <level>INFO</level>
+  <class>com.sigur.component.EmployeesMgr</class>
+  <method>hire</method>
+  <thread>46</thread>
+  <message>Sat Feb 05 00:00:00 MSK 2022. Employee 57 hire Tue Mar 29 09:47:05 MSK 2022.Department: 7</message>
+</record>
+<record>
+  <date>2022-08-16T21:45:47.348851800Z</date>
+  <millis>1660686347348</millis>
+  <nanos>851800</nanos>
+  <sequence>76</sequence>
+  <logger>com.sigur.component.EmployeesMgr</logger>
+  <level>INFO</level>
+  <class>com.sigur.component.EmployeesMgr</class>
+  <method>destroyMethod</method>
+  <thread>46</thread>
+  <message>Sat Feb 05 00:00:00 MSK 2022.Employee 45 fired Sun Feb 06 13:34:13 MSK 2022. Department:4. Worked:w:6d:23h:32</message>
+</record>
+<record>
+  <date>2022-08-16T21:45:48.337135600Z</date>
+  <millis>1660686348337</millis>
+  <nanos>135600</nanos>
+  <sequence>78</sequence>
+  <logger>com.sigur.component.EmployeesMgr</logger>
+  <level>INFO</level>
+  <class>com.sigur.component.EmployeesMgr</class>
+  <method>hire</method>
+  <thread>46</thread>
+  <message>Sun Feb 06 00:00:00 MSK 2022. Employee 58 hire Thu Jul 28 02:50:36 MSK 2022.Department: 1</message>
+</record>
+<record>
+  <date>2022-08-16T21:45:49.335819Z</date>
+  <millis>1660686349335</millis>
+  <nanos>819000</nanos>
+  <sequence>79</sequence>
+  <logger>com.sigur.component.EmployeesMgr</logger>
+  <level>INFO</level>
+  <class>com.sigur.component.EmployeesMgr</class>
+  <method>hire</method>
+  <thread>46</thread>
+  <message>Mon Feb 07 00:00:00 MSK 2022. Employee 59 hire Mon Oct 03 14:37:57 MSK 2022.Department: 4</message>
+</record>
+<record>
+  <date>2022-08-16T21:45:50.337321500Z</date>
+  <millis>1660686350337</millis>
+  <nanos>321500</nanos>
+  <sequence>80</sequence>
+  <logger>com.sigur.component.EmployeesMgr</logger>
+  <level>INFO</level>
+  <class>com.sigur.component.EmployeesMgr</class>
+  <method>hire</method>
+  <thread>46</thread>
+  <message>Tue Feb 08 00:00:00 MSK 2022. Employee 60 hire Sat Mar 05 08:18:47 MSK 2022.Department: 3</message>
+</record>
+<record>
+  <date>2022-08-16T21:45:51.343812600Z</date>
+  <millis>1660686351343</millis>
+  <nanos>812600</nanos>
+  <sequence>82</sequence>
+  <logger>com.sigur.component.EmployeesMgr</logger>
+  <level>INFO</level>
+  <class>com.sigur.component.EmployeesMgr</class>
+  <method>hire</method>
+  <thread>46</thread>
+  <message>Wed Feb 09 00:00:00 MSK 2022. Employee 62 hire Wed Apr 20 08:06:19 MSK 2022.Department: 8</message>
+</record>
+<record>
+  <date>2022-08-16T21:45:52.333274200Z</date>
+  <millis>1660686352333</millis>
+  <nanos>274200</nanos>
+  <sequence>83</sequence>
+  <logger>com.sigur.component.EmployeesMgr</logger>
+  <level>INFO</level>
+  <class>com.sigur.component.EmployeesMgr</class>
+  <method>hire</method>
+  <thread>46</thread>
+  <message>Thu Feb 10 00:00:00 MSK 2022. Employee 63 hire Fri Sep 02 13:35:28 MSK 2022.Department: 5</message>
+</record>
+<record>
+  <date>2022-08-16T21:45:52.336273900Z</date>
+  <millis>1660686352336</millis>
+  <nanos>273900</nanos>
+  <sequence>84</sequence>
+  <logger>com.sigur.component.EmployeesMgr</logger>
+  <level>INFO</level>
+  <class>com.sigur.component.EmployeesMgr</class>
+  <method>destroyMethod</method>
+  <thread>46</thread>
+  <message>Thu Feb 10 00:00:00 MSK 2022.Employee 29 fired Fri Feb 04 13:13:02 MSK 2022. Department:5. Worked:w:10d:12h:30</message>
+</record>
+<record>
+  <date>2022-08-16T21:45:52.337273900Z</date>
+  <millis>1660686352337</millis>
+  <nanos>273900</nanos>
+  <sequence>85</sequence>
+  <logger>com.sigur.component.EmployeesMgr</logger>
+  <level>INFO</level>
+  <class>com.sigur.component.EmployeesMgr</class>
+  <method>destroyMethod</method>
+  <thread>46</thread>
+  <message>Thu Feb 10 00:00:00 MSK 2022.Employee 57 fired Fri Feb 04 14:58:20 MSK 2022. Department:7. Worked:w:10d:9h:11</message>
+</record>
+<record>
+  <date>2022-08-16T21:45:53.334147400Z</date>
+  <millis>1660686353334</millis>
+  <nanos>147400</nanos>
+  <sequence>88</sequence>
+  <logger>com.sigur.component.EmployeesMgr</logger>
+  <level>INFO</level>
+  <class>com.sigur.component.EmployeesMgr</class>
+  <method>hire</method>
+  <thread>46</thread>
+  <message>Fri Feb 11 00:00:00 MSK 2022. Employee 65 hire Tue Nov 29 16:19:39 MSK 2022.Department: 2</message>
+</record>
+<record>
+  <date>2022-08-16T21:45:54.344376300Z</date>
+  <millis>1660686354344</millis>
+  <nanos>376300</nanos>
+  <sequence>90</sequence>
+  <logger>com.sigur.component.EmployeesMgr</logger>
+  <level>INFO</level>
+  <class>com.sigur.component.EmployeesMgr</class>
+  <method>hire</method>
+  <thread>46</thread>
+  <message>Sat Feb 12 00:00:00 MSK 2022. Employee 67 hire Sat Jul 23 04:09:54 MSK 2022.Department: 2</message>
+</record>
+<record>
+  <date>2022-08-16T21:45:55.345138900Z</date>
+  <millis>1660686355345</millis>
+  <nanos>138900</nanos>
+  <sequence>92</sequence>
+  <logger>com.sigur.component.EmployeesMgr</logger>
+  <level>INFO</level>
+  <class>com.sigur.component.EmployeesMgr</class>
+  <method>hire</method>
+  <thread>46</thread>
+  <message>Sun Feb 13 00:00:00 MSK 2022. Employee 69 hire Thu May 12 12:38:15 MSK 2022.Department: 7</message>
+</record>
+<record>
+  <date>2022-08-16T21:45:56.341740200Z</date>
+  <millis>1660686356341</millis>
+  <nanos>740200</nanos>
+  <sequence>94</sequence>
+  <logger>com.sigur.component.EmployeesMgr</logger>
+  <level>INFO</level>
+  <class>com.sigur.component.EmployeesMgr</class>
+  <method>hire</method>
+  <thread>46</thread>
+  <message>Mon Feb 14 00:00:00 MSK 2022. Employee 71 hire Sat Jul 23 19:36:26 MSK 2022.Department: 4</message>
+</record>
+<record>
+  <date>2022-08-16T21:45:57.346335900Z</date>
+  <millis>1660686357346</millis>
+  <nanos>335900</nanos>
+  <sequence>96</sequence>
+  <logger>com.sigur.component.EmployeesMgr</logger>
+  <level>INFO</level>
+  <class>com.sigur.component.EmployeesMgr</class>
+  <method>hire</method>
+  <thread>46</thread>
+  <message>Tue Feb 15 00:00:00 MSK 2022. Employee 73 hire Thu Oct 27 08:41:50 MSK 2022.Department: 7</message>
+</record>
+<record>
+  <date>2022-08-16T21:45:57.350329800Z</date>
+  <millis>1660686357350</millis>
+  <nanos>329800</nanos>
+  <sequence>97</sequence>
+  <logger>com.sigur.component.EmployeesMgr</logger>
+  <level>INFO</level>
+  <class>com.sigur.component.EmployeesMgr</class>
+  <method>destroyMethod</method>
+  <thread>46</thread>
+  <message>Tue Feb 15 00:00:00 MSK 2022.Employee 3 fired Wed Feb 02 13:34:14 MSK 2022. Department:8. Worked:w:9d:4h:55</message>
+</record>
+<record>
+  <date>2022-08-16T21:45:57.350329800Z</date>
+  <millis>1660686357350</millis>
+  <nanos>329800</nanos>
+  <sequence>98</sequence>
+  <logger>com.sigur.component.EmployeesMgr</logger>
+  <level>INFO</level>
+  <class>com.sigur.component.EmployeesMgr</class>
+  <method>destroyMethod</method>
+  <thread>46</thread>
+  <message>Tue Feb 15 00:00:00 MSK 2022.Employee 60 fired Wed Feb 02 14:31:24 MSK 2022. Department:3. Worked:w:11d:1h:12</message>
+</record>
+<record>
+  <date>2022-08-16T21:45:58.341589100Z</date>
+  <millis>1660686358341</millis>
+  <nanos>589100</nanos>
+  <sequence>102</sequence>
+  <logger>com.sigur.component.EmployeesMgr</logger>
+  <level>INFO</level>
+  <class>com.sigur.component.EmployeesMgr</class>
+  <method>hire</method>
+  <thread>46</thread>
+  <message>Wed Feb 16 00:00:00 MSK 2022. Employee 75 hire Tue Jun 28 20:59:01 MSK 2022.Department: 2</message>
+</record>
+<record>
+  <date>2022-08-16T21:45:59.345133800Z</date>
+  <millis>1660686359345</millis>
+  <nanos>133800</nanos>
+  <sequence>104</sequence>
+  <logger>com.sigur.component.EmployeesMgr</logger>
+  <level>INFO</level>
+  <class>com.sigur.component.EmployeesMgr</class>
+  <method>hire</method>
+  <thread>46</thread>
+  <message>Thu Feb 17 00:00:00 MSK 2022. Employee 77 hire Wed Dec 07 07:06:33 MSK 2022.Department: 8</message>
+</record>
+<record>
+  <date>2022-08-16T21:46:00.340526700Z</date>
+  <millis>1660686360340</millis>
+  <nanos>526700</nanos>
+  <sequence>106</sequence>
+  <logger>com.sigur.component.EmployeesMgr</logger>
+  <level>INFO</level>
+  <class>com.sigur.component.EmployeesMgr</class>
+  <method>hire</method>
+  <thread>46</thread>
+  <message>Fri Feb 18 00:00:00 MSK 2022. Employee 79 hire Tue Mar 01 02:59:12 MSK 2022.Department: 4</message>
+</record>
+<record>
+  <date>2022-08-16T21:46:01.345142400Z</date>
+  <millis>1660686361345</millis>
+  <nanos>142400</nanos>
+  <sequence>108</sequence>
+  <logger>com.sigur.component.EmployeesMgr</logger>
+  <level>INFO</level>
+  <class>com.sigur.component.EmployeesMgr</class>
+  <method>hire</method>
+  <thread>46</thread>
+  <message>Sat Feb 19 00:00:00 MSK 2022. Employee 81 hire Tue Nov 01 10:31:09 MSK 2022.Department: 3</message>
+</record>
+<record>
+  <date>2022-08-16T21:46:02.344352200Z</date>
+  <millis>1660686362344</millis>
+  <nanos>352200</nanos>
+  <sequence>109</sequence>
+  <logger>com.sigur.component.EmployeesMgr</logger>
+  <level>INFO</level>
+  <class>com.sigur.component.EmployeesMgr</class>
+  <method>hire</method>
+  <thread>46</thread>
+  <message>Sun Feb 20 00:00:00 MSK 2022. Employee 82 hire Fri Oct 07 22:55:19 MSK 2022.Department: 7</message>
+</record>
+<record>
+  <date>2022-08-16T21:46:02.347350Z</date>
+  <millis>1660686362347</millis>
+  <nanos>350000</nanos>
+  <sequence>110</sequence>
+  <logger>com.sigur.component.EmployeesMgr</logger>
+  <level>INFO</level>
+  <class>com.sigur.component.EmployeesMgr</class>
+  <method>destroyMethod</method>
+  <thread>46</thread>
+  <message>Sun Feb 20 00:00:00 MSK 2022.Employee 69 fired Mon Jan 31 12:09:00 MSK 2022. Department:7. Worked:w:8d:22h:30</message>
+</record>
+<record>
+  <date>2022-08-16T21:46:03.332872100Z</date>
+  <millis>1660686363332</millis>
+  <nanos>872100</nanos>
+  <sequence>112</sequence>
+  <logger>com.sigur.component.EmployeesMgr</logger>
+  <level>INFO</level>
+  <class>com.sigur.component.EmployeesMgr</class>
+  <method>hire</method>
+  <thread>46</thread>
+  <message>Mon Feb 21 00:00:00 MSK 2022. Employee 83 hire Mon Sep 05 20:37:12 MSK 2022.Department: 0</message>
 </record>
 </log>
